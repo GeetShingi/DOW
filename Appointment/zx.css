@@ -36,9 +36,15 @@ h3
     font-size: 20px;
     opacity: 0.8;
 }
+@media (max-width: 1200px) and (min-width: 990px)
+{
+    .vp{
+        margin-left: 30px;
+    }
+}
 #p1
 {
-       width: 200px;
+    width: 200px;
     height: 40px;
     text-indent:20px;
     font-size: 15px;
@@ -51,18 +57,21 @@ select,#p2,#pp,#pp1,#pp2
     text-indent:20px;
     font-size:20px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:600px)
+{
     select,#p2,#pp,#pp1,#pp2
 {
     width: 275px;
 }
 
 }
+
 #pp6
 {
-    width: 600px;
+    width: 450px;
     height: 200px;
     text-indent:20px;
+    resize:none;
 }
 .button
 {
@@ -86,4 +95,9 @@ input{
         margin-top: 20px;
     }
 }
-
+@media (max-width: 990px)
+{
+    #pp6{
+        width: 275px;
+    }
+}
